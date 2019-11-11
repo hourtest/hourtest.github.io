@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>RWD_framework</title>
+    <!-- (Bootstrap) Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <style>
+    * {
+        font-family: Microsoft JhengHei;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+    body {
+        padding-top: 30px;
+    }
+
+    .divItem {
+        border: #ddd solid 1px;
+    }
+
+    @media only screen and (min-width: 1200px) {}
+
+    @media only screen and (max-width: 1199px) {}
+
+    @media only screen and (min-width: 992px) {}
+
+    @media only screen and (max-width: 991px) {
+        .divItem {
+            border: #f00 solid 1px;
+        }
+    }
+
+    @media only screen and (min-width: 768px) {}
+
+    @media only screen and (max-width: 767px) {
+        .divItem {
+            border: #0f0 solid 1px;
+        }
+    }
+
+    @media only screen and (max-width: 576px) {}
+
+    @media only screen and (max-width: 440px) {}
+
+    @media only screen and (max-width: 420px) {}
+    </style>
+</head>
+
+<body>
+    <!-- .col- (extra small devices - screen width less than 576px)
+    .col-sm- (small devices - screen width equal to or greater than 576px)
+    .col-md- (medium devices - screen width equal to or greater than 768px)
+    .col-lg- (large devices - screen width equal to or greater than 992px)4
+    .col-xl- (xlarge devices - screen width equal to or greater than 1200px) 
+    source: https://muki.tw/tech/bootstrap4-grid-introduce/
+-->
+    <div class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-md-4 col-lg-4 divItem"><iframe src="https://10ay.online.tableau.com/t/hour/views/Superstore/CommissionModel?:embed=yes&:subscriptions=no?:device=tablet" frameborder="0"></iframe></div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-4 divItem">here's iframe<br>991px get red border<br>767px get green border</div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-4 divItem">here's iframe<br>991px get red border<br>767px get green border</div>
+            </div>
+        </div>
+    </div>
+    <!-- jQuery Core 2.2.4 -->
+    <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+    <!-- (Bootstrap) Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+
+</html>
